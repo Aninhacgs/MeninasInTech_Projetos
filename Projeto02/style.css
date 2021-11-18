@@ -1,0 +1,62 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(2, 54, 71);
+}
+
+.mensagem h2{
+    color:white;
+}
+
+h4{
+    display: inline;
+    color: red;
+}
+
+.apresentacao h2{
+    color: rgb(97, 7, 97);
+    display: inline;
+}
+
+
+.apresentacao{
+    background-color:rgb(109, 206, 238);
+    text-align: center;
+}
+
+.apresentacao h3{
+    display: inline;
+    color:rgb(104, 11, 70);
+}
+
+.lanchonete{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.lanchonete h3{
+    color:olive;
+}
+
+input{
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+select{
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    border-color: teal;
+    background-color: teal;
+    color: white;
+}

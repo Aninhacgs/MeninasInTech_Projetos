@@ -1,0 +1,58 @@
+
+body{
+    background-color: midnightblue;
+    padding: 0%;
+    margin: 0px;
+}
+
+.mensagem h2{
+    color:white;
+}
+
+h4{
+    display: inline;
+    color: red;
+}
+
+.apresentacao h2{
+    color: darkmagenta;
+    display: inline;
+}
+
+
+.apresentacao{
+    background-color:lightblue;
+    text-align: center;
+}
+
+.apresentacao h3{
+    display: inline;
+    color:mediumvioletred;
+}
+
+
+
+.container h3{
+    color: darkkhaki;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+input{
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    border-color: teal;
+    background-color: teal;
+    color: white;
+}

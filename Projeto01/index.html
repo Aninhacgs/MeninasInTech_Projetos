@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto 01</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+    <body>
+        <div class="apresentacao">
+            <h2>Meninas In Tech</h2>
+            <h3>  {Projeto 01 Calculadora de Compras}</h3>
+        </div>
+        <div class="container">
+           <h3>Digite o Código do Produto</h3>
+           <input type="text" id="codigo">
+           <h3>Digite o Valor Unitário</h3>
+           <input type="number" id="valor"><h4 id="msValor"></h4>
+           <h3>Digite a Quantidade</h3>
+           <input type="number" id="quantidade"><h4 id="msQtd"></h4><br/><br/>
+           <button type="submit" onclick="calcularCompra()">Calcular Compra</button><br/><br/>
+           <div class="mensagem">
+            <h2 id="compra"></h2>
+           </div>
+           
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

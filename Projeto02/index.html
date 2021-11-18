@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <header>
+        <title>Projeto 02</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="./style.css">
+    </header>
+    <body>
+        <div class="apresentacao">
+            <h2>Meninas In Tech</h2>
+            <h3>  {Projeto 02 Caixa de Lanchonete}</h3>
+        </div>
+        <div class="lanchonete">
+            <h3>Selecione o Produto</h3>
+            <select id="produtos">
+                <option >CACHORRO QUENTE</option>
+                <option >PIPOCA</option>
+                <option >FATIA DE PIZZA</option>
+                <option >FATIA DE TORTA</option>
+                <option >FATIA DE BOLO</option>
+                <option >MISTO QUENTE</option>
+                <option >REFRIGERANTE 200ml</option>
+                <option >ÁGUA DE COCO</option>
+                <option >MATTE</option>
+                <option >CAFÉZINHO</option>
+                <option >CHOCOLATE QUENTE</option>
+                <option >SUCO DE LARANJA</option>
+            </select>
+            <h3>Digite a Quantidade</h3>
+            <input type="number" id="qtd"><h4 id="msqtd"></h4>
+            <h3 id="valorTotal"></h3>
+            <button type="submit" onclick="adicionar()">Adicionar Produto</button>
+            <button type="submit" onclick="notaCompra()">Calcular Compra</button><br/>
+            <h3>Digite o valor Pago pelo Cliente</h3>
+            <input type="number" id="valorPago"><h4 id="msValorPago"></h4><br/><br/>
+            <button type="submit" onclick="finalizaCompra()">Finalizar Compra</button>
+            <h3 id="totPago"></h3>
+            <h3 id="totalCompra"></h3>
+            <h3 id="troco"></h3>
+        </div>
+        
+    </body>
+    <script src="./script.js"></script>
+</html>
