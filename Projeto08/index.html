@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Projeto 08 - Converosr de Moedas</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </header>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de moedas
+            </h1>
+            <p class="page-subtitle">
+              Descubra os valores em real R$
+            </p>
+            <label for="moeda">Insira o valor em Dolar</label><br>
+            <input type="number" id="valor" size="2" /><br>
+            <label for="moeda">Insira o valor da cotação do Dolar</label><br>
+            <input type="number" id="cotacao" size="2" /><br>
+            <button type="submit" onclick="Converter()">Converter</button>
+            <h2 id="valorConvertido"></h2>
+          </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

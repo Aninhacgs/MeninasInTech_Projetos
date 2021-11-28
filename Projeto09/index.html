@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Projeto 09 - Converosr de Temperatura</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </header>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de Temperatura
+            </h1>
+            <p class="page-subtitle">
+              Selecione a Temperatura a ser
+            </p>
+            <select name="" id="tipo">
+                <option >FAHRENHEIT</option>
+                <option >CELSIUS</option>
+            </select><br/>
+            <label for="temp">Insira o valor da Temperatura</label><br>
+            <input type="number" id="temperatura" size="2" /><br>
+            <button type="submit" onclick="Converter()">Converter</button>
+            <h2 id="valorConvertido"></h2>
+          </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
